@@ -1,1 +1,207 @@
-<textarea rows="35" style="width:100%; font-family:monospace; font-size:14px;"> # Spring Learning A structured collection of my **Spring Framework learning, practical examples, coding exercises, and projects** as I prepare for Java backend and full-stack development. This repository documents my journey from **Spring fundamentals to advanced Spring concepts and real-world backend development**. --- ## 🎯 Learning Goals - Understand the fundamentals of the Spring Framework - Learn Inversion of Control (IoC) - Understand Dependency Injection (DI) - Understand tight coupling and loose coupling - Learn how the Spring Container manages objects - Understand Spring Beans and their lifecycle - Learn Spring Core concepts - Learn Spring MVC - Build practical Spring applications - Prepare for Java backend development and interviews --- ## 🛠️ Technologies - Java - Spring Framework - Maven - IntelliJ IDEA - Git - GitHub --- ## 📚 Topics ### 1. Spring Fundamentals - Introduction to Spring - Spring vs Java - Tight Coupling - Loose Coupling - Inversion of Control (IoC) - Dependency Injection (DI) - Spring Container - Spring Beans ### 2. Spring Core - Spring Configuration - Component Scanning - `@Component` - `@Service` - `@Repository` - `@Autowired` - Constructor Injection - Bean Lifecycle - Bean Scopes ### 3. Spring MVC - MVC Architecture - Controllers - Request Mapping - Model - Views - Form Handling ### 4. Practical Examples Small examples will be added to understand Spring concepts step by step. ### 5. Spring Projects Larger practical projects will be added as the learning progresses. --- ## 📂 Repository Structure ```text Spring-Learning/ │ ├── README.md ├── .gitignore │ └── src/ └── com/ └── sahil/ └── spring/ └── basics/ ├── car/ │ ├── Car.java │ ├── Engine.java │ └── Main.java │ └── computer/ ├── Computer.java ├── Processor.java └── Main.java ``` --- ## 🧪 Examples & Practice | # | Example | Concepts Covered | Status | |---|---|---|---| | 1 | Car Example | Object Creation, Dependency, Tight Coupling | ✅ Completed | | 2 | Computer Example | Object Creation, Dependency, Tight Coupling | ⏳ Pending | More examples will be added as I progress through the Spring Framework. --- ## 📈 Learning Progress | Section | Status | |---|---| | Spring Fundamentals | 🟢 In Progress | | Spring Core | ⬜ Not Started | | Spring MVC | ⬜ Not Started | | Spring Projects | ⬜ Not Started | --- ## 🚀 Future Learning After completing the Spring Framework fundamentals, I will continue with: - Spring Boot - JPA / Hibernate - REST APIs - Spring Security - Database Integration - Backend Development - Real-World Projects - Deployment --- ## 👨‍💻 Author **Sahil Patil** Computer Science & Engineering Student - GitHub: [Sahilpatil2320](https://github.com/Sahilpatil2320) - LinkedIn: [Sahil Patil](https://www.linkedin.com/in/sahil-patil2320/) --- ## ⭐ Purpose This repository documents my journey of learning **Spring Framework and Java backend development** through practical examples, coding exercises, and projects. </textarea>
+# Spring-Learning
+
+A hands-on repository for learning the **Spring Framework** through simple, practical Java examples and progressively structured projects.
+
+---
+
+## 🎯 Learning Goals
+
+* Understand the fundamentals of the Spring Framework.
+* Learn how Spring manages objects and dependencies.
+* Understand Dependency Injection (DI).
+* Learn the difference between tight coupling and loose coupling.
+* Build practical Spring examples step by step.
+* Develop a strong foundation for Spring Boot and Java backend development.
+
+---
+
+## 🛠️ Technologies
+
+* **Java**
+* **Spring Framework**
+* **IntelliJ IDEA**
+* **Git & GitHub**
+
+---
+
+## 📚 Topics
+
+### Spring Basics
+
+* Object Creation
+* Dependencies
+* Tight Coupling
+* Dependency Injection
+* Loose Coupling
+* Spring IoC Container
+* Spring Beans
+* Configuration
+* Annotations
+
+---
+
+## 📂 Repository Structure
+
+```text
+Spring-Learning/
+│
+├── README.md
+├── .gitignore
+│
+└── src/
+    └── com/
+        └── sahil/
+            └── spring/
+                └── basics/
+                    ├── car/
+                    │   ├── Car.java
+                    │   ├── Engine.java
+                    │   └── Main.java
+                    │
+                    └── computer/
+                        ├── Computer.java
+                        ├── Processor.java
+                        └── Main.java
+```
+
+---
+
+## 🧪 Examples & Practice
+
+| # | Example          | Concepts Covered                            | Status       |
+| - | ---------------- | ------------------------------------------- | ------------ |
+| 1 | Car Example      | Object Creation, Dependency, Tight Coupling | 🟢 Completed |
+| 2 | Computer Example | Object Creation, Dependency, Tight Coupling | ⏳ Pending    |
+
+---
+
+## 📖 Example Details
+
+### 1. Car Example
+
+The Car example demonstrates how one class can depend on another class.
+
+**Classes:**
+
+* `Car.java`
+* `Engine.java`
+* `Main.java`
+
+**Concepts:**
+
+* Object Creation
+* Dependency
+* Tight Coupling
+
+**Status:** 🟢 Completed
+
+---
+
+### 2. Computer Example
+
+The Computer example demonstrates dependency between `Computer` and `Processor` classes.
+
+**Classes:**
+
+* `Computer.java`
+* `Processor.java`
+* `Main.java`
+
+**Concepts:**
+
+* Object Creation
+* Dependency
+* Tight Coupling
+
+**Status:** ⏳ Pending
+
+---
+
+## 📈 Learning Progress
+
+| Topic                | Status        |
+| -------------------- | ------------- |
+| Object Creation      | 🟢 Completed  |
+| Dependencies         | 🟢 Completed  |
+| Tight Coupling       | 🟢 Completed  |
+| Car Example          | 🟢 Completed  |
+| Computer Example     | ⏳ Pending     |
+| Dependency Injection | ⬜ Not Started |
+| Loose Coupling       | ⬜ Not Started |
+| Spring IoC Container | ⬜ Not Started |
+| Spring Beans         | ⬜ Not Started |
+| Spring Configuration | ⬜ Not Started |
+| Spring Annotations   | ⬜ Not Started |
+| Spring Boot          | ⬜ Not Started |
+
+---
+
+## 🔄 Learning Workflow
+
+Each example/project will follow this workflow:
+
+```text
+Example / Project Completed
+        ↓
+Commit Example / Project
+        ↓
+Push to GitHub
+        ↓
+Update README.md
+        ↓
+Commit README Update
+        ↓
+Push README Update
+        ↓
+Start Next Example / Project
+```
+
+---
+
+## 🚀 Future Learning
+
+The repository will gradually cover:
+
+* Dependency Injection
+* Constructor Injection
+* Setter Injection
+* Field Injection
+* Inversion of Control (IoC)
+* Spring IoC Container
+* Spring Beans
+* Bean Configuration
+* Component Scanning
+* Spring Annotations
+* `@Component`
+* `@Autowired`
+* `@Configuration`
+* `@Bean`
+* Loose Coupling
+* Interfaces with Spring
+* Spring Boot
+* REST APIs
+* Spring Data JPA
+* Database Integration
+* Spring Security
+* Spring Boot Projects
+
+---
+
+## 👨‍💻 Author
+
+**Sahil Patil**
+
+Computer Science & Engineering Student
+Java | Spring | Backend Development | DSA
+
+* GitHub: [Sahilpatil2320](https://github.com/Sahilpatil2320)
+* LinkedIn: [Sahil Patil](https://www.linkedin.com/in/sahil-patil2320/)
+* LeetCode: [Sahilpatil2320](https://leetcode.com/u/Sahilpatil2320/)
+
+---
+
+## ⭐ Purpose
+
+This repository is created as a **step-by-step Spring Framework learning journey**.
+
+The goal is to understand each concept through practical examples rather than only studying theory, while maintaining a clean GitHub repository that documents the complete learning progress.
