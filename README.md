@@ -71,7 +71,7 @@ Spring-Learning/
 | # | Example          | Concepts Covered                            | Status       |
 | - | ---------------- | ------------------------------------------- | ------------ |
 | 1 | Car Example      | Object Creation, Dependency, Tight Coupling | 🟢 Completed |
-| 2 | Computer Example | Object Creation, Dependency, Tight Coupling | ⏳ Pending    |
+| 2 | Computer Example | Object Creation, Dependency, Tight Coupling | 🟢 Completed    |
 
 ---
 
@@ -113,7 +113,7 @@ The Computer example demonstrates dependency between `Computer` and `Processor` 
 * Dependency
 * Tight Coupling
 
-**Status:** ⏳ Pending
+**Status:** 🟢 Completed
 
 ---
 
@@ -125,7 +125,7 @@ The Computer example demonstrates dependency between `Computer` and `Processor` 
 | Dependencies         | 🟢 Completed  |
 | Tight Coupling       | 🟢 Completed  |
 | Car Example          | 🟢 Completed  |
-| Computer Example     | ⏳ Pending     |
+| Computer Example     | 🟢 Completed  |
 | Dependency Injection | ⬜ Not Started |
 | Loose Coupling       | ⬜ Not Started |
 | Spring IoC Container | ⬜ Not Started |
